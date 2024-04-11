@@ -40,4 +40,6 @@ The sample code has been tested on the following environment using a workstation
 conda create -n mtl -c pytorch python=3.8.13 --file ./requirements-conda.txt
 conda activate mtl
 python3 -m pip install xenonpy==0.6.5
+
+conda create -n mtl311 -c pytorch python=3.11 --file ./requirements-conda-wo-xenonpy.txt
 ```
