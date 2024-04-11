@@ -4,5 +4,16 @@ numpy==1.22.3
 scikit-learn==1.0.2
 scipy==1.8.0
 rdkit==2022.09.5
-pytorch==1.11.0
 pickleshare==0.7.5
+deprecated==1.2.14
+latexcodec==2.0.1
+pydantic==1.10.14
+emmet-core==0.68.0
+mordred
+networkx==2.8.8
+plotly
+pymatgen
+seaborn
+tabulate
+tqdm
+pytorch==1.11.0

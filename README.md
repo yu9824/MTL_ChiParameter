@@ -37,7 +37,7 @@ The sample code has been tested on the following environment using a workstation
 
 
 ```bash
-conda create -n mtl python=3.8.13 --file ./requirements-conda.txt
+conda create -n mtl -c pytorch python=3.8.13 --file ./requirements-conda.txt
 conda activate mtl
 python3 -m pip install xenonpy==0.6.5
 ```
