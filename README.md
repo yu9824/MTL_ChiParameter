@@ -21,7 +21,7 @@ NOTE: We also provide a separated file of sample code for calculating the descri
 
 ## Key packages
 
-The sample code has been tested on the following environment using a workstation with NVIDIA A100 GPU. 
+The sample code has been tested on the following environment using a workstation with NVIDIA A100 GPU.
 
 * python == 3.8.13
 * jupyterlab == 3.3.4
@@ -34,3 +34,10 @@ The sample code has been tested on the following environment using a workstation
 * pytorch == 1.11.0
 * pickleshare == 0.7.5
 * cudatoolkit == 11.3.1
+
+
+```bash
+conda create -n mtl python=3.8.13 --file ./requirements-conda.txt
+conda activate mtl
+python3 -m pip install xenonpy==0.6.5
+```
