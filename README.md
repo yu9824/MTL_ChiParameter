@@ -35,11 +35,12 @@ The sample code has been tested on the following environment using a workstation
 * pickleshare == 0.7.5
 * cudatoolkit == 11.3.1
 
+## Environment
 
 ```bash
 conda create -n mtl -c pytorch python=3.8.13 --file ./requirements-conda.txt
 conda activate mtl
 python3 -m pip install xenonpy==0.6.5
-
+# OR
 conda create -n mtl311 -c pytorch python=3.11 --file ./requirements-conda-wo-xenonpy.txt
 ```
